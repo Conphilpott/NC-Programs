@@ -1,0 +1,149 @@
+$powerUpCmd 1521297133 -version 10.5 -unique { -build 3980 -serialNumber P53661 }
+$filamentLoadCmd 1521297345 -name {SR30XL} -amount 14.271171 -number 1
+$filamentLoadCmd 1521297645 -name {P430XL_BLK} -amount 23.472705 -number 0
+$queueCmd {1521297927} -name Roof_Fastener_Design_3_@zjoyj -action append -queue { Roof_Fastener_Design_3_@zjoyj }
+$jobStartCmd 1521297938 -id 1 -name {Roof_Fastener_Design_3_@zjoyj} -owner {Workshop-PC\Workshop} -timeEst 5024 -partTip T16 -supportTip T16 -partMatlName P430XL -supportMatlName SR30XL -partMatlAmt 0.432960 -supportMatlAmt 0.205556 -partHeadTemp 263.500000 -supportHeadTemp 263.500000 -envTemp 44.500000 -pack {e3185336_a0bf_4693_9f38_344fba93da36} -producer {11.1 (4915)} -comment {Written by GrabCAD Print!!!!!}
+$jobBuildStartCmd 1521299138 -id 1 -name {Roof_Fastener_Design_3_@zjoyj} -owner {Workshop-PC\Workshop} -partHeadTemp 298.200000 -supportHeadTemp 298.200000 -envTemp 77.500000 -partSpoolAmt 23.472705 -supportSpoolAmt 14.271171
+$systemPause 1521299625 -reason "out of material" -layer 20 -curve 106 -unique { -event bad_model_eprom }
+$jobBuildDoneCmd 1521299706 -id 1 -name {Roof_Fastener_Design_3_@zjoyj} -owner {Workshop-PC\Workshop} -buildTime 482 -status {User Abort} -partMatlAmt 0.017140 -supportMatlAmt 0.047234 -partHeadTemp 236.900000 -supportHeadTemp 236.900000 -envTemp 58.100000 -partSpoolAmt 23.455566 -supportSpoolAmt 14.223937
+$jobDoneCmd 1521299706 -id 1 -name {Roof_Fastener_Design_3_@zjoyj} -owner {Workshop-PC\Workshop} -partHeadTemp 236.900000 -supportHeadTemp 236.900000 -envTemp 58.100000
+$powerDownCmd 1521300923
+$powerUpCmd 1521902602 -version 10.5 -unique { -build 3980 -serialNumber P53661 }
+$filamentUnloadCmd 1521902742 -name {P430XL_BLK} -amount 23.472705 -number 0
+$filamentUnloadCmd 1521903042 -name {} -amount 0.000000 -number 1
+$queueCmd {1521903257} -name Roof_Fastener_Design_3_@vUIgi -action append -queue { Roof_Fastener_Design_3_@vUIgi }
+$filamentLoadCmd 1521905378 -name {P430XL_BLK} -amount 23.472705 -number 0
+$filamentLoadCmd 1521905663 -name {SR30XL} -amount 42.000000 -number 1
+$jobStartCmd 1521905925 -id 1 -name {Roof_Fastener_Design_3_@vUIgi} -owner {Workshop-PC\Workshop} -timeEst 5024 -partTip T16 -supportTip T16 -partMatlName P430XL -supportMatlName SR30XL -partMatlAmt 0.432960 -supportMatlAmt 0.205556 -partHeadTemp 200.000000 -supportHeadTemp 200.000000 -envTemp 77.700000 -pack {e3185336_a0bf_4693_9f38_344fba93da36} -producer {11.1 (4915)} -comment {Written by GrabCAD Print!!!!!}
+$jobBuildStartCmd 1521906117 -id 1 -name {Roof_Fastener_Design_3_@vUIgi} -owner {Workshop-PC\Workshop} -partHeadTemp 298.400000 -supportHeadTemp 298.400000 -envTemp 76.400000 -partSpoolAmt 23.472705 -supportSpoolAmt 42.000000
+$systemPause 1521906542 -reason "out of material" -layer 19 -curve 101 -unique { -event bad_model_eprom }
+$userResumeCmd 1521906779
+$systemPause 1521907034 -reason "out of material" -layer 20 -curve 109 -unique { -event bad_model_eprom }
+$userResumeCmd 1521907089
+$systemPause 1521907284 -reason "out of material" -layer 22 -curve 127 -unique { -event bad_model_eprom }
+$userResumeCmd 1521907284
+$systemPause 1521907404 -reason "out of material" -layer 24 -curve 147 -unique { -event bad_model_eprom }
+$userResumeCmd 1521907500
+$systemPause 1521907683 -reason "out of material" -layer 26 -curve 161 -unique { -event bad_model_eprom }
+$userResumeCmd 1521907699
+$systemPause 1521907801 -reason "out of material" -layer 26 -curve 163 -unique { -event bad_model_eprom }
+$userResumeCmd 1521907841
+$systemPause 1521907967 -reason "out of material" -layer 27 -curve 173 -unique { -event bad_model_eprom }
+$userResumeCmd 1521908740
+$systemPause 1521908872 -reason "out of material" -layer 27 -curve 173 -unique { -event bad_model_eprom }
+$userResumeCmd 1521909009
+$systemPause 1521909194 -reason "out of material" -layer 28 -curve 181 -unique { -event bad_model_eprom }
+$userResumeCmd 1521909196
+$systemPause 1521909337 -reason "out of material" -layer 30 -curve 199 -unique { -event bad_model_eprom }
+$userResumeCmd 1521909339
+$systemPause 1521909463 -reason "out of material" -layer 32 -curve 222 -unique { -event bad_model_eprom }
+$userResumeCmd 1521910461
+$systemPause 1521910739 -reason "out of material" -layer 34 -curve 235 -unique { -event bad_model_eprom }
+$userResumeCmd 1521911713
+$systemPause 1521911982 -reason "out of material" -layer 36 -curve 253 -unique { -event bad_model_eprom }
+$userResumeCmd 1521912072
+
+-----  coldfire exceptions --------
+03/24/18 10:35:16:623: Mcb: Received DevErr (14 8-bit values)
+000000: 7e 01 02 3b 30 04 00 14 00 00 00 15 16 7e         ~..;0........~
+
+
+03/24/18 10:35:16:638: Mcb.cpp line 3102
+03/24/18 10:35:16:647: device error 0x14 (20)
+
+03/24/18 10:35:16:655: invalid completion event DeviceError for MemWrite command
+03/24/18 10:35:16:671: Mcb.cpp:2877:INFO:Cartridge communication error:
+03/24/18 10:35:16:984: Mcb: Received DevErr (14 8-bit values)
+000000: 7e 01 02 3c 30 04 00 14 00 00 00 1b 8a 7e         ~..<0........~
+
+
+03/24/18 10:35:16:999: Mcb.cpp line 3102
+03/24/18 10:35:16:  7: device error 0x14 (20)
+
+03/24/18 10:35:16: 15: invalid completion event DeviceError for MemWrite command
+03/24/18 10:35:16: 30: Mcb.cpp:2877:INFO:Cartridge communication error:
+03/24/18 10:35:16: 59: PClassMaterial.cpp:163:INFO:Cartridge communication error:material write fail limit of 6 exceeded on Model cartridge
+03/24/18 10:37:38:637: Mcb: Received DevErr (14 8-bit values)
+000000: 7e 01 02 3f 30 04 00 14 00 00 00 cb 00 7e         ~..?0........~
+
+
+03/24/18 10:37:38:652: Mcb.cpp line 3102
+03/24/18 10:37:38:660: device error 0x14 (20)
+
+03/24/18 10:37:38:669: invalid completion event DeviceError for MemWrite command
+03/24/18 10:37:38:684: Mcb.cpp:2877:INFO:Cartridge communication error:
+03/24/18 10:37:38:997: Mcb: Received DevErr (14 8-bit values)
+000000: 7e 01 02 40 30 04 00 14 00 00 00 00 39 7e         ~..@0.......9~
+
+
+03/24/18 10:37:38: 12: Mcb.cpp line 3102
+03/24/18 10:37:38: 20: device error 0x14 (20)
+
+03/24/18 10:37:38: 29: invalid completion event DeviceError for MemWrite command
+03/24/18 10:37:38: 44: Mcb.cpp:2877:INFO:Cartridge communication error:
+03/24/18 10:37:38:361: Mcb: Received DevErr (14 8-bit values)
+000000: 7e 01 02 41 30 04 00 14 00 00 00 bf b8 7e         ~..A0........~
+
+
+03/24/18 10:37:38:376: Mcb.cpp line 3102
+03/24/18 10:37:38:385: device error 0x14 (20)
+
+03/24/18 10:37:38:393: invalid completion event DeviceError for MemWrite command
+03/24/18 10:37:38:408: Mcb.cpp:2877:INFO:Cartridge communication error:
+03/24/18 10:37:38:437: PClassMaterial.cpp:163:INFO:Cartridge communication error:material write fail limit of 6 exceeded on Model cartridge
+03/24/18 10:58:21:186: Mcb: Received DevErr (14 8-bit values)
+000000: 7e 01 02 48 30 04 00 14 00 00 00 bc 14 7e         ~..H0........~
+
+
+03/24/18 10:58:21:201: Mcb.cpp line 3102
+03/24/18 10:58:21:209: device error 0x14 (20)
+
+03/24/18 10:58:21:218: invalid completion event DeviceError for MemWrite command
+03/24/18 10:58:21:233: Mcb.cpp:2877:INFO:Cartridge communication error:
+03/24/18 10:58:21:546: Mcb: Received DevErr (14 8-bit values)
+000000: 7e 01 02 49 30 04 00 14 00 00 00 03 95 7e         ~..I0........~
+
+
+03/24/18 10:58:21:561: Mcb.cpp line 3102
+03/24/18 10:58:21:569: device error 0x14 (20)
+
+03/24/18 10:58:21:578: invalid completion event DeviceError for MemWrite command
+03/24/18 10:58:21:594: Mcb.cpp:2877:INFO:Cartridge communication error:
+03/24/18 10:58:21:904: Mcb: Received DevErr (14 8-bit values)
+000000: 7e 01 02 4a 30 04 00 14 00 00 00 d3 1f 7e         ~..J0........~
+
+
+03/24/18 10:58:21:919: Mcb.cpp line 3102
+03/24/18 10:58:21:927: device error 0x14 (20)
+
+03/24/18 10:58:21:935: invalid completion event DeviceError for MemWrite command
+03/24/18 10:58:21:951: Mcb.cpp:2877:INFO:Cartridge communication error:
+03/24/18 10:58:21:980: PClassMaterial.cpp:163:INFO:Cartridge communication error:material write fail limit of 6 exceeded on Model cartridge
+03/24/18 11:19:14:187: Mcb: Received DevErr (14 8-bit values)
+000000: 7e 01 02 4f 30 04 00 14 00 00 00 b2 88 7e         ~..O0........~
+
+
+03/24/18 11:19:14:202: Mcb.cpp line 3102
+03/24/18 11:19:14:210: device error 0x14 (20)
+
+03/24/18 11:19:14:219: invalid completion event DeviceError for MemWrite command
+03/24/18 11:19:14:234: Mcb.cpp:2877:INFO:Cartridge communication error:
+03/24/18 11:19:14:545: Mcb: Received DevErr (14 8-bit values)
+000000: 7e 01 02 50 30 04 00 14 00 00 00 78 62 7e         ~..P0......xb~
+
+
+03/24/18 11:19:14:560: Mcb.cpp line 3102
+03/24/18 11:19:14:568: device error 0x14 (20)
+
+03/24/18 11:19:14:577: invalid completion event DeviceError for MemWrite command
+03/24/18 11:19:14:592: Mcb.cpp:2877:INFO:Cartridge communication error:
+03/24/18 11:19:14:904: Mcb: Received DevErr (14 8-bit values)
+000000: 7e 01 02 51 30 04 00 14 00 00 00 c7 e3 7e         ~..Q0........~
+
+
+03/24/18 11:19:14:919: Mcb.cpp line 3102
+03/24/18 11:19:14:927: device error 0x14 (20)
+
+03/24/18 11:19:14:936: invalid completion event DeviceError for MemWrite command
+03/24/18 11:19:14:951: Mcb.cpp:2877:INFO:Cartridge communication error:
+03/24/18 11:19:14:980: PClassMaterial.cpp:163:INFO:Cartridge communication error:material write fail limit of 6 exceeded on Model cartridge
